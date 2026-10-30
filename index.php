@@ -7,9 +7,9 @@ if (isset($_GET['lang'])) {
 $current_lang = $_SESSION['lang'] ?? 'ru';
 
 if ($current_lang == 'et') {
-    include 'lang/et';
+    include 'lang/et.php';
 } else {
-    include 'lang/ru';
+    include 'lang/ru.php';
 }
 
 require_once 'db.php';
@@ -51,5 +51,6 @@ require_once 'db.php';
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
