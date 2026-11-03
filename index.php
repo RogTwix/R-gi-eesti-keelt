@@ -75,11 +75,15 @@ $q = $quiz[$current_lang];
         </div>
     </header>
 
+
+
+
+
     <main class="container my-5">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card quiz-box p-4 border-0 bg-light">
-                    <h3 class="text-center mb-4 text-primary"> <?php echo $q['title']; ?></h3>
+                    <h3 class="text-center mb-4 text-primary">gi <?php echo $q['title']; ?></h3>
                     
                     <div class="mb-4">
                         <p class="fw-bold"><?php echo $q['q1']; ?></p>
@@ -115,6 +119,9 @@ $q = $quiz[$current_lang];
             </div>
         </div>
     </main>
+
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
