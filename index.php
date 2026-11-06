@@ -14,7 +14,14 @@ if ($current_lang == 'et') {
 
 require_once 'db.php';
 
-// Тексты для мини-теста (чтобы не трогать файлы lang)
+
+
+
+
+
+
+// Тексты для мини-теста 
+
 $quiz = [
     'ru' => [
         'title' => 'Мини-тест: Узнай свой уровень эстонского!',
@@ -33,6 +40,9 @@ $quiz = [
         'res_a2' => 'Sul on head algteadmised! Ootame sind suhtluskursusele (A2/B1).'
     ]
 ];
+
+
+
 $q = $quiz[$current_lang];
 ?>
 <!DOCTYPE html>
@@ -44,7 +54,9 @@ $q = $quiz[$current_lang];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        /* Небольшой CSS-эффект для теста */
+
+
+
         .quiz-box { transition: transform 0.3s ease, box-shadow 0.3s ease; }
         .quiz-box:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
     </style>
