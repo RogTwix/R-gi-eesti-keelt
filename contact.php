@@ -35,10 +35,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a class="navbar-brand" href="index.php">🇪🇪 EestiKool</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
+
+                
                     <li class="nav-item"><a class="nav-link" href="index.php"><?php echo $lang['home']; ?></a></li>
                     <li class="nav-item"><a class="nav-link" href="courses.php"><?php echo $lang['courses']; ?></a></li>
                     <li class="nav-item"><a class="nav-link active" href="contact.php"><?php echo $lang['contact']; ?></a></li>
                     <li class="nav-item ms-3">
+
+
+                    
                         <a href="contact.php?lang=ru" class="btn btn-sm btn-outline-light">RU</a>
                         <a href="contact.php?lang=et" class="btn btn-sm btn-outline-light">ET</a>
                     </li>
